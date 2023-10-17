@@ -6,52 +6,62 @@
     <title>Document</title>
     <link rel="stylesheet" href="cart.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark pt-3 ">
-        <a href="./index.html" class="navbar-brand h1 text-white"><h1 class="h2">BuYiT</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="text-white navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto ">
-              <li class="nav-item active">
-                <a class="category text-white " href="./category.html?category=electronics">electronics</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                    <a class="category text-white " href="./category.html?category=jewelery">jewellery</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                    <a class="category text-white " href="./category.html?category=men's clothing">Men's clothing</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                    <a class="category text-white " href="./category.html?category=women's clothing">Women's clothing</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                    <a class="cart text-white mr-3" href="./cart.html"><i class="fa fa-shopping-cart" style="font-size:24px"></i></a>
-                </li>
-              </ul>
-        </div>
-    </nav>
-    <div id="products" >
-
+  <nav class="navbar navbar-expand-lg bg-dark pt-3 ">
+    <a href="./index.html" class="navbar-brand h1 text-white">
+      <h1 class="h2 ms-3">BuYiT</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="text-white navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item active">
+          <a class="category text-white " href="./category.html?category=electronics">electronics</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav  ">
+        <li class="nav-item active">
+          <a class="category text-white " href="./category.html?category=jewelery">jewellery</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav  ">
+        <li class="nav-item active">
+          <a class="category text-white " href="./category.html?category=men's clothing">Men's clothing</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav  ">
+        <li class="nav-item active">
+          <a class="category text-white " href="./category.html?category=women's clothing">Women's clothing</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav  ">
+        <li class="nav-item active">
+          <a class="cart text-white mr-3" href="./cart.html"><i class="fa fa-shopping-cart"
+              style="font-size:24px"></i></a>
+        </li>
+      </ul>
     </div>
-    <div class="cartprice">
+  </nav>
+    <div class="container">
+      <div id="products" >
 
-        
+      </div>
+      <div class="cartprice">
+  
+          
+      </div>
     </div>
     
     <script src="./node_modules/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
     <script src="cart.js"></script>
 </body>
 </html>
